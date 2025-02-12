@@ -216,17 +216,6 @@ public class DLinkedList<T> implements List<T> {
         return (isEmpty()) ? null : cursor.element;
     }
 
-//    @Override
-//    public boolean hasNext() {
-//        if (isEmpty()) {
-//            return false;
-//        }
-//        if (cursor == tail) {
-//            return false;
-//        }
-//        return true;
-//    }
-
     @Override
     public boolean hasNext() {
         return cursor != null && cursor.getNext() != null;
