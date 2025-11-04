@@ -3,7 +3,7 @@ package il.ac.telhai.ds.hash;
 import il.ac.telhai.ds.linkedlist.DLinkedList;
 import il.ac.telhai.ds.linkedlist.List;
 
-
+//hello to git
 public class HashTable<V> {
 
 	public static final int DEF_MAX_HASH_SIZE = 10;
